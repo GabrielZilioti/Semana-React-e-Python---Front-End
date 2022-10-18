@@ -4,12 +4,7 @@ import { CabecalhoContainer, Logo } from '../src/components/Cabecalho/Cabecalho.
 
 const Home: NextPage = () => {
   return (
-    <CabecalhoContainer>
-      <div>
-        <Logo src="/images/myteacher.png"/>
-      </div>
-      <p>Encontre o professor perfeito</p>
-    </CabecalhoContainer>
+    <Cabecalho></Cabecalho>
   )
 }
 
